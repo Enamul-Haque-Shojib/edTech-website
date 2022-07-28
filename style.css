@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* banner */
 
 .carousel-item {
     background-color: black;
@@ -30,15 +31,15 @@
 }
 
 
+/* Testimonial */
 
-
-.carousel-control-prevm {
+.prev {
     left: -25px;
 }
-.carousel-control-nextm {
+.next {
     right: -25px;
 }
-.carousel-control-prevm, .carousel-control-nextm{
+.prev, .next{
     position: absolute;
     top: 120px;
     bottom: 0;
@@ -65,6 +66,7 @@
 
 
 
+/* Tablet  */
 
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -83,6 +85,7 @@
     .discover-card-text-price {
         font-size: 20px;
     }
+
     .paragraph-ellipsis{
         display: -webkit-box;
         -webkit-line-clamp: 4;
@@ -110,7 +113,7 @@
 
 
 
-
+/* Mobile */
 
 @media only screen and (min-width: 577px) and (max-width: 769px) {
 
@@ -158,6 +161,10 @@
     }
 
 }
+
+
+
+/* Mobile */
 
 @media only screen and (max-width: 576px) {
     .discover-title-width {
