@@ -57,6 +57,34 @@
 
 }
 
+.carousel-control-prevm {
+    left: -25px;
+}
+.carousel-control-nextm {
+    right: -25px;
+}
+.carousel-control-prevm, .carousel-control-nextm{
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    /* transition: opacity .15s ease; */
+}
+
+
+
+
 @media only screen and (min-width: 577px) and (max-width: 769px) {
 
 
