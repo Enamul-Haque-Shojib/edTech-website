@@ -19,13 +19,50 @@
     width: 60%;
 }
 
-/* .paragraph-ellipsis{
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-} */
+
+.width-title{
+    width: 50%;
+}
+
+.center-title{
+        
+    margin: 0 auto;
+}
+
+
+
+
+.carousel-control-prevm {
+    left: -25px;
+}
+.carousel-control-nextm {
+    right: -25px;
+}
+.carousel-control-prevm, .carousel-control-nextm{
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.width-accordin{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
 
 
 
@@ -53,34 +90,24 @@
         overflow: hidden;
         text-overflow: ellipsis;
     } 
+
+    .width-title{
+        width: 80%;
+    }
+    .center-title{
+        
+        margin: 0 auto;
+    }
+
+    .width-accordin{
+        
+        width: 100%;
+        margin: 0;
+    }
    
 
 }
 
-.carousel-control-prevm {
-    left: -25px;
-}
-.carousel-control-nextm {
-    right: -25px;
-}
-.carousel-control-prevm, .carousel-control-nextm{
-    position: absolute;
-    top: 120px;
-    bottom: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    width: 50px;
-    height: 50px;
-    padding: 9px;
-    color: #fff;
-    text-align: center;
-    background: 0 0;
-    border: 0;
-    opacity: .5;
-    /* transition: opacity .15s ease; */
-}
 
 
 
@@ -117,6 +144,19 @@
         text-overflow: ellipsis;
     } 
 
+    .width-title{
+       
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .width-accordin{
+        
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -144,5 +184,18 @@
         text-overflow: ellipsis;
     } 
     
+    .width-title{
+       
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .width-accordin{
+       
+        width: 100%;
+        margin: 0;
+    }
 
 }
